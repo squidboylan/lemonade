@@ -278,7 +278,7 @@ jobs:
     name: Build Lemonade .rpm Package
     runs-on: ubuntu-latest
     container:
-      image: fedora:latest
+      image: fedora:43
     outputs:
       version: ${{ steps.get_version.outputs.version }}
     steps:
